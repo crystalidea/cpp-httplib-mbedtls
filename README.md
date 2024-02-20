@@ -1,5 +1,5 @@
 # cpp-httplib-mbedtls
-This library makes a bridge between [cpp-httplib](https://github.com/yhirose/cpp-httplib) and [mbedtls](https://github.com/Mbed-TLS/mbedtls) by emulating OpenSSL.
+This library makes a bridge between [cpp-httplib](https://github.com/yhirose/cpp-httplib) and [mbedtls](https://github.com/Mbed-TLS/mbedtls) by emulating OpenSSL API.
 
 In order to use it, define CPPHTTPLIB_OPENSSL_SUPPORT and add the [openssl](openssl) folder to includes. Tested with cpp-httplib v0.15.3 and mbtdtls 3.5.2, should work with later versions.
 
