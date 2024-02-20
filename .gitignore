@@ -1,0 +1,6 @@
+openssl-3*
+Debug
+Release
+*.vs
+private_cert
+*.user

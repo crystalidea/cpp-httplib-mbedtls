@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\library">
+      <UniqueIdentifier>{94b68a84-de99-4d96-9356-ae72382ab57c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="library\aes.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\aesce.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\aesni.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\aria.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\asn1parse.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\asn1write.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\base64.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\bignum.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\bignum_core.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\bignum_mod.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\bignum_mod_raw.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\camellia.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ccm.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\chacha20.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\chachapoly.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\cipher.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\cipher_wrap.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\cmac.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\constant_time.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ctr_drbg.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\debug.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\des.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\dhm.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ecdh.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ecdsa.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ecjpake.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ecp.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ecp_curves.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ecp_curves_new.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\entropy.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\entropy_poll.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\error.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\gcm.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\hkdf.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\hmac_drbg.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\lmots.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\lms.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\md.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\md5.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\memory_buffer_alloc.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\mps_reader.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\mps_trace.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\net_sockets.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\nist_kw.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\oid.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\padlock.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\pem.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\pk.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\pk_wrap.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\pkcs5.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\pkcs7.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\pkcs12.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\pkparse.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\pkwrite.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\platform.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\platform_util.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\poly1305.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\psa_crypto.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\psa_crypto_aead.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\psa_crypto_cipher.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\psa_crypto_client.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\psa_crypto_driver_wrappers_no_static.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\psa_crypto_ecp.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\psa_crypto_ffdh.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\psa_crypto_hash.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\psa_crypto_mac.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\psa_crypto_pake.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\psa_crypto_rsa.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\psa_crypto_se.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\psa_crypto_slot_management.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\psa_crypto_storage.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\psa_its_file.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\psa_util.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ripemd160.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\rsa.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\rsa_alt_helpers.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\sha1.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\sha3.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\sha256.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\sha512.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ssl_cache.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ssl_ciphersuites.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ssl_client.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ssl_cookie.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ssl_debug_helpers_generated.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ssl_msg.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ssl_ticket.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ssl_tls.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ssl_tls12_client.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ssl_tls12_server.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ssl_tls13_client.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ssl_tls13_generic.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ssl_tls13_keys.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ssl_tls13_server.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\threading.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\timing.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\version.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\version_features.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\x509.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\x509_create.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\x509_crl.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\x509_crt.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\x509_csr.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\x509write.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\x509write_crt.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\x509write_csr.c">
+      <Filter>Source Files\library</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

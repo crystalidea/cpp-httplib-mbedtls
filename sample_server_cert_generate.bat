@@ -1,0 +1,2 @@
+rem https://stackoverflow.com/questions/10175812/how-to-generate-a-self-signed-ssl-certificate-using-openssl
+openssl req -x509 -newkey rsa:4096 -keyout sample_server_cert_pk.pem -out sample_server_cert.pem -sha256 -days 3650 -nodes -subj "/C=XX/ST=StateName/L=CityName/O=CompanyName/OU=CompanySectionName/CN=CommonNameOrHostname"
